@@ -1,0 +1,49 @@
+{
+    "name": "clarity",
+    "displayName": "Clarity Language",
+    "description": "Clarity Language for Visual Studio Code",
+    "publisher": "LNow",
+    "repository": "https://github.com/LNow/vscode-clarity.git",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "clarity",
+        "stacks"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "clarity",
+                "aliases": [
+                    "Clarity",
+                    "clarity"
+                ],
+                "extensions": [
+                    ".clar"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "clar",
+                "scopeName": "source.clarity",
+                "path": "./syntaxes/clarity.tmLanguage.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build:syntax": "js-yaml syntaxes/clarity.yaml > syntaxes/clarity.tmLanguage.json",
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "js-yaml": "^4.1.0",
+        "vsce": "^1.88.0"
+    }
+}
