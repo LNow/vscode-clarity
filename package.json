@@ -1,10 +1,11 @@
 {
     "name": "clarity",
+    "license": "GPL-3.0",
     "displayName": "Clarity Language",
     "description": "Clarity Language for Visual Studio Code",
     "publisher": "LNow",
     "repository": "https://github.com/LNow/vscode-clarity.git",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.56.0"
     },
