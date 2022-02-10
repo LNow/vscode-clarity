@@ -4,7 +4,7 @@
     "description": "Clarity Language for Visual Studio Code",
     "publisher": "LNow",
     "repository": "https://github.com/LNow/vscode-clarity.git",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.56.0"
     },
@@ -42,6 +42,6 @@
         "publish": "vsce publish"
     },
     "devDependencies": {
-        "vsce": "^1.88.0"
+        "vsce": "^2.67.0"
     }
 }
