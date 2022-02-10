@@ -38,12 +38,10 @@
         ]
     },
     "scripts": {
-        "build:syntax": "js-yaml syntaxes/clarity.yaml > syntaxes/clarity.tmLanguage.json",
         "package": "vsce package",
         "publish": "vsce publish"
     },
     "devDependencies": {
-        "js-yaml": "^4.1.0",
         "vsce": "^1.88.0"
     }
 }
