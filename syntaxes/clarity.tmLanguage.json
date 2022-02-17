@@ -495,7 +495,8 @@
               },
               "name": "meta.let-local-var",
               "patterns": [{ "include": "#expression" }, { "include": "#user-func" }]
-            }
+            },
+            { "include": "#expression" }
           ]
         }
       ]
