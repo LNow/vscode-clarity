@@ -208,7 +208,7 @@
         "1": { "name": "punctuation.define-map.end.clarity" }
       },
       "name": "meta.define-map",
-      "patterns": [{ "include": "#data-type" }]
+      "patterns": [{ "include": "#data-type" }, { "include": "#expression" }]
     },
     "literal": {
       "patterns": [
