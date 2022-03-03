@@ -549,3 +549,32 @@ tx-sender
 
 ;; xor
 (xor u1 u2)
+
+(define-trait some-trait-name (
+    (first-function () (response uint uint))
+    (second-function (
+        uint
+        ;; uint
+        principal
+        )
+        ;; (response uint uint)
+        (response bool uint)
+    )
+    (third-function () (response {
+        a: uint,
+        ;; b: uint,
+        c: uint,
+    } uint))
+    ;; (forth-function () (response uint uint))
+    (fifth-function () (response uint uint))
+    (sixth-function () (response 
+        bool 
+        ;; uint
+        uint
+    ))
+))
+
+;; right color
+(define-map hello uint {
+  key: uint ;; wrong color
+})
